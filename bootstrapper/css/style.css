@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.homepage{
+    height: 100vh;
+    width: 100%;
+    background-image: url(..//img/xhome-banner.jpg.pagespeed.ic.wpYjhdIc7D123.png);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    overflow: hidden;
+
+}
+
+.content{
+    width: 83%;
+    height: 80vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    align-items: center;
+    padding: 20px;
+    padding-top: 10%;
+}
+
+.text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    color: #fff;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 2em;
+}
+
+.btn{
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+    padding: 20px 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.btn:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+img{
+    height: 35em;
+    padding: 20px;
+}
+
+@media(max-width: 850px){
+    .image{
+        display: none;
+    }
+
+    .text h1{
+        font-size: 25px;
+        padding: 0;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+}
